@@ -11,9 +11,15 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  /* font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif */
-    font-family: "Inter", serif;
-}
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-stretch: normal;
+    font-kerning: normal;
+    font-variant-ligatures: contextual common-ligatures;
+    text-rendering: optimizeLegibility;
+  }
 
 
 /* Nav Bar and Links */
