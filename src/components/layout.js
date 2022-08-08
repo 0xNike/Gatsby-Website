@@ -1,9 +1,10 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import * as layoutStyles from './layout.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 import "@fontsource/ibm-plex-mono"
 import "@fontsource/inter"
-import { StaticImage } from 'gatsby-plugin-image'
+
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -28,6 +29,7 @@ const Layout = ({ pageTitle, children }) => {
         <h2>Contact me</h2>
         <a href="https://github.com/0xNike">
          <StaticImage alt="GitHub" src="../images/github-brands.svg" className={layoutStyles.icon}/>
+         <StaticImage alt="GitHub" src="../images/CP9998.png" className={layoutStyles.icon}/>
         </a>        
       </footer>
     </div>
