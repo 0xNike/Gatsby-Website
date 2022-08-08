@@ -39,6 +39,7 @@ color: #FFFFFF;
 
 /* Footer Icons */
 
-.icons {
-  width: 100px;
+.icon {
+  filter: invert(100%);
+  width: 2.25em;
 }

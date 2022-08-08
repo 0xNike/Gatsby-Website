@@ -4,8 +4,6 @@ import * as layoutStyles from './layout.module.css'
 import "@fontsource/ibm-plex-mono"
 import "@fontsource/inter"
 import { StaticImage } from 'gatsby-plugin-image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -29,7 +27,7 @@ const Layout = ({ pageTitle, children }) => {
       <footer>
         <h2>Contact me</h2>
         <a href="https://github.com/0xNike">
-          <FontAwesomeIcon icon={brands('github')} size="2x" inverse />
+         <StaticImage alt="GitHub" src="../images/github-brands.svg" className={layoutStyles.icon}/>
         </a>        
       </footer>
     </div>
