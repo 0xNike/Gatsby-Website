@@ -13,30 +13,80 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "InterVariable", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
   }
 
+  /* Grid-box */
+
+.gridItem1 {
+  grid-area: logo;
+}
+.gridItem2 {
+  grid-area: header;
+}
+.gridItem3 {
+  grid-area: main;
+  justify-content: center;
+}
+
+
+.gridContainer {
+  display: grid;
+  gap: 50px 50px;
+  grid-template-areas:
+    'logo main main'
+    'header main main'
+}
 
 /* Nav Bar and Links */
 
+.siteLogo {
+  margin: 10px 0px;
+  text-decoration: none;
+  font-size: 5em;
+}
+
+
 .nav-links {
-display: flex;
-justify-content: flex-end;
-list-style: none;
-padding-left: 0;
-margin: 0;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .nav-link-item {
-padding-right: 2rem;
+  padding-right: 2rem;
 }
 
 .nav-link-text {
-color: #FFFFFF;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-bottom: 0px;
+  position: relative;
+  margin: 0;
+}
+
+.nav-link-text:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link-text:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .active {
-  color: greenyellow;
+  color: #FFFFFF;
 }
 
 /* Footer Icons */
