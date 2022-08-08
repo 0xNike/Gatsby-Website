@@ -10,17 +10,11 @@ body {
     min-height: 1200px;
 }
 
-h1,h2,h3,h4,h5 {
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+h1,h2,h3,h4,h5,h6 {
+  /* font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif */
+    font-family: "Inter", serif;
 }
 
-p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h6 {
-  font-family: -apple-system;
-}
 
 /* Nav Bar and Links */
 
