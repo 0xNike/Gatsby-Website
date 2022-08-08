@@ -7,8 +7,6 @@ const BlogPage = () => {
   return (
     <Layout pageTitle="blog">
         <p>My thoughts about Blockchain</p>
-        <p>This is system-ui font</p>
-        <h6>This is apple system font</h6>
     </Layout>
   )
 }

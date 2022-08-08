@@ -3,7 +3,8 @@ import { Link } from 'gatsby'
 import * as layoutStyles from './layout.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 import "@fontsource/ibm-plex-mono"
-import "@fontsource/inter"
+import "@fontsource/inter/400.css"
+import "@fontsource/inter/variable.css"
 
 
 const Layout = ({ pageTitle, children }) => {
