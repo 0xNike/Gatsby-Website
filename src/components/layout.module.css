@@ -11,29 +11,9 @@ body {
     min-height: 1200px;
 }
 
-h1,h3,h4,h5,h6 {
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+h1,h2,h3,h4,h5,h6 {
+    font-family: "InterVariable", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
-    font-variant-caps: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-stretch: normal;
-    font-kerning: normal;
-    font-variant-ligatures: contextual common-ligatures;
-    text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" on,"liga" on,"calt" on,"zero" on;
-    text-rendering: optimizeLegibility;
-  }
-
-  h2 {
-    font-family: system-ui;
-  }
-
-  @supports (font-variation-settings: normal) {
-    h1 {
-      font-family: "InterVariable";
-      font-variation-settings: "wght" 700;
-    }
   }
 
 
