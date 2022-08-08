@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Mono", monospace, sans-serif;
 }
 
 .container {
