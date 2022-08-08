@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "IBM Plex Mono", monospace, system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
 }
 
 .container {
@@ -18,6 +19,7 @@ h1,h3,h4,h5,h6 {
     font-stretch: normal;
     font-kerning: normal;
     font-variant-ligatures: contextual common-ligatures;
+    text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" on,"liga" on,"calt" on,"zero" on;
     text-rendering: optimizeLegibility;
   }
