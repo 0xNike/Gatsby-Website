@@ -29,7 +29,6 @@ const Layout = ({ pageTitle, children }) => {
         <h2>Contact me</h2>
         <a href="https://github.com/0xNike">
          <StaticImage alt="GitHub" src="../images/github-brands.svg" className={layoutStyles.icon}/>
-         <StaticImage alt="GitHub" src="../images/CP9998.png" className={layoutStyles.icon}/>
         </a>        
       </footer>
     </div>
