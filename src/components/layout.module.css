@@ -1,17 +1,28 @@
-.container {
-    margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
+body {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
 }
 
-.heading {
-    color: rebeccapurple;
-  }
-  
+.container {
+    color: #FFFFFF;
+    background-color: #1c1c1c;
+    padding: 30px;
+    min-height: 1200px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Nav Bar and Links */
+
 .nav-links {
 display: flex;
+justify-content: flex-end;
 list-style: none;
 padding-left: 0;
+margin: 0;
 }
 
 .nav-link-item {
@@ -19,5 +30,15 @@ padding-right: 2rem;
 }
 
 .nav-link-text {
-color: black;
+color: #FFFFFF;
+}
+
+.active {
+  color: greenyellow;
+}
+
+/* Footer Icons */
+
+.icons {
+  width: 100px;
 }
