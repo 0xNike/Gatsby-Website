@@ -37,13 +37,15 @@ const Layout = ({ pageTitle, children }) => {
           </main>    
         </div>
       </div>
-      {/* <main>
-        {children}
-      </main> */}
       <footer>
         <h2>Contact me</h2>
         <a href="https://github.com/0xNike">
-         <StaticImage alt="GitHub" src="../images/github-brands.svg" className={layoutStyles.icon}/>
+         <StaticImage 
+            alt="GitHub" 
+            src="../images/github-brands.svg" 
+            className={layoutStyles.icon}
+            placeholder="none"
+            />
         </a>
         <p>© 2022 0xNike.</p> 
       </footer>

@@ -9,7 +9,7 @@ const IndexPage = () => {
     <Layout pageTitle="Homepage">
         {/* This will be passed as a children */}
         <p >
-          Web3 and Blockchain enthusiast. I enjoy creating stuff and overcoming challenges. Aspiring Web3/DeFi entrepreneur.
+          Web3 and Blockchain advocate. Enjoy creating stuff and overcoming challenges. Aspiring Web3/DeFi entrepreneur.
         </p>
         <div className={indexStyles.colorLine}></div>
         
