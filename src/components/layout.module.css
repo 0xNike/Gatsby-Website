@@ -1,3 +1,4 @@
+/* main composition */
 body {
   margin: 0;
   font-family: "IBM Plex Mono", monospace, system-ui, sans-serif;
@@ -16,7 +17,8 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
   }
 
-  /* Grid-box */
+
+/* Grid-box */
 
 .gridItem1 {
   grid-area: logo;
@@ -29,10 +31,9 @@ h1,h2,h3,h4,h5,h6 {
   justify-content: center;
 }
 
-
 .gridContainer {
   display: grid;
-  gap: 50px 50px;
+  gap: 3.125em 3.125em;
   grid-template-areas:
     'logo main main'
     'header main main'
@@ -75,7 +76,7 @@ h1,h2,h3,h4,h5,h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #FFFFFF;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -89,9 +90,39 @@ h1,h2,h3,h4,h5,h6 {
   color: #FFFFFF;
 }
 
+
 /* Footer Icons */
 
 .icon {
   filter: invert(100%);
   width: 2.25em;
+}
+
+/* For mobile devices and tablets */
+@media only screen and (max-width : 768px) {
+  
+  .gridItem1 {
+    grid-area: logo;
+  }
+  .gridItem2 {
+    float: left;
+    display: block;
+  }
+  .gridItem3 {
+    grid-area: main;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  .gridContainer {
+    display: grid;
+    grid-template-areas:
+      'logo'
+      'header'
+      'main'
+  }
+
+
 }

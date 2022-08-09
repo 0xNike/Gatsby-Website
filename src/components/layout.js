@@ -44,7 +44,8 @@ const Layout = ({ pageTitle, children }) => {
         <h2>Contact me</h2>
         <a href="https://github.com/0xNike">
          <StaticImage alt="GitHub" src="../images/github-brands.svg" className={layoutStyles.icon}/>
-        </a>        
+        </a>
+        <p>© 2022 0xNike.</p> 
       </footer>
     </div>
   )
