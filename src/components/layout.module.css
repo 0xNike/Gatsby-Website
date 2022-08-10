@@ -17,6 +17,10 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
   }
 
+a {
+  color:#FFFFFF;
+}
+
 
 /* Grid-box */
 
@@ -101,6 +105,10 @@ h1,h2,h3,h4,h5,h6 {
 /* For mobile devices and tablets */
 @media only screen and (max-width : 768px) {
   
+  .siteLogo {
+    font-size: 4em;
+  }
+
   .gridItem1 {
     grid-area: logo;
   }
@@ -112,9 +120,6 @@ h1,h2,h3,h4,h5,h6 {
     grid-area: main;
     justify-content: center;
   }
-  
-  
-  
   
   .gridContainer {
     display: grid;

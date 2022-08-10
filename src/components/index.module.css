@@ -1,3 +1,12 @@
+.flexBox {
+    display: flex;
+}
+
+.flexItem {
+    margin: 20px;
+}
+
+
 .colorLine {
     height: 0.1em;
     /* background: linear-gradient(
@@ -23,3 +32,21 @@
 @keyframes cL {
     to {background-position:-200% 0}
   }
+
+@media only screen and (max-width : 768px) {
+    
+    .twoCol {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+    
+    .flexBox {
+        flex-direction: column;
+    }
+
+    .flexItem {
+        margin: 5px;
+    }
+
+}
