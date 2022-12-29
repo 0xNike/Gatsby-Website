@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import * as indexStyles from '../components/index.module.css'
+import { Link } from 'gatsby'
 // import { StaticImage } from 'gatsby-plugin-image'
 
  const IndexPage = () => {
@@ -27,9 +28,16 @@ import * as indexStyles from '../components/index.module.css'
             <h2>Learning:</h2>
             <ul className={indexStyles.twoCol}>
               <li>React</li>
-              <li>GraphQL</li>
               <li>Brownie</li>
               <li>Cryptography</li>
+            </ul>
+          </div>
+          <div className={indexStyles.flexItem}>
+            <h2>Certification:</h2>
+            <ul className={indexStyles.twoCol}>
+              <li><a href="https://certificates.cs50.io/d8ba20d8-8388-48ec-b222-4b2833d92a11.pdf?size=letter">CS50</a></li>
+              <li>Token Engineering</li>
+              <li><Link to='https://google.com'>CS50</Link></li>
             </ul>
           </div>
         </div>
