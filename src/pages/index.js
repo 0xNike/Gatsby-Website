@@ -21,13 +21,13 @@ import { Link } from 'gatsby'
               <li>CSS</li>
               <li>JS</li>
               <li>Python</li>
-              <li>Solidity</li>
             </ul>
           </div>
           <div className={indexStyles.flexItem}>
             <h2>Learning:</h2>
             <ul className={indexStyles.twoCol}>
               <li>React</li>
+              <li>Solidity</li>
               <li>Brownie</li>
               <li>Cryptography</li>
             </ul>
@@ -35,9 +35,14 @@ import { Link } from 'gatsby'
           <div className={indexStyles.flexItem}>
             <h2>Certification:</h2>
             <ul className={indexStyles.twoCol}>
-              <li><a href="https://certificates.cs50.io/d8ba20d8-8388-48ec-b222-4b2833d92a11.pdf?size=letter">CS50</a></li>
-              <li>Token Engineering</li>
-              <li><Link to='https://google.com'>CS50</Link></li>
+              <li><Link to='https://certificates.cs50.io/d8ba20d8-8388-48ec-b222-4b2833d92a11.pdf?size=letter'>CS50</Link></li>
+              <li><Link to='https://tokenengineering.net/user/6391be4b3221bdba9308cb73/'>Token Engineering</Link></li>
+            </ul>
+          </div>
+          <div className={indexStyles.flexItem}>
+            <h2>Experience:</h2>
+            <ul className={indexStyles.twoCol}>
+              <li>Crypto.com 2022 Hackathon Finalist</li>
             </ul>
           </div>
         </div>

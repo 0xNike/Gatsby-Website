@@ -47,7 +47,7 @@ const Layout = ({ pageTitle, children }) => {
             placeholder="none"
             />
         </a>
-        <a href="https://github.com/0xNike">
+        <a href="https://www.linkedin.com/in/jianhao-lim/">
          <StaticImage 
             alt="LinkedIn" 
             src="../images/linkedin-brands.svg" 
@@ -55,7 +55,7 @@ const Layout = ({ pageTitle, children }) => {
             placeholder="none"
             />
         </a>
-        <p>© 2022 0xNike.</p> 
+        <p>© 2023 0xNike.</p> 
       </footer>
     </div>
   )
