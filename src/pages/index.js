@@ -27,7 +27,6 @@ import * as indexStyles from '../components/index.module.css'
             <h2>Learning:</h2>
             <ul className={indexStyles.twoCol}>
               <li>React</li>
-              <li>Redux</li>
               <li>GraphQL</li>
               <li>Brownie</li>
               <li>Cryptography</li>
