@@ -3,8 +3,7 @@ import Layout from '../components/layout'
 import * as indexStyles from '../components/index.module.css'
 // import { StaticImage } from 'gatsby-plugin-image'
 
-
-const IndexPage = () => {
+ const IndexPage = () => {
   return (
     <Layout pageTitle="Homepage">
         {/* Introduction */}
@@ -20,7 +19,6 @@ const IndexPage = () => {
               <li>HTML</li>
               <li>CSS</li>
               <li>JS</li>
-              <li>SQL</li>
               <li>Python</li>
               <li>Solidity</li>
             </ul>
@@ -31,14 +29,8 @@ const IndexPage = () => {
               <li>React</li>
               <li>Redux</li>
               <li>GraphQL</li>
+              <li>Brownie</li>
               <li>Cryptography</li>
-              <li>Intermediate JS</li>
-            </ul>
-          </div>
-          <div className={indexStyles.flexItem}>
-            <h2>Certifications:</h2>
-            <ul className={indexStyles.twoCol}>
-              <li><a alt="CS50 Certification" href="https://certificates.cs50.io/d8ba20d8-8388-48ec-b222-4b2833d92a11.pdf?size=letter">CS50</a></li>
             </ul>
           </div>
         </div>

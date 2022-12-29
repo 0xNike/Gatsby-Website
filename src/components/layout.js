@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
       <div className={layoutStyles.gridContainer}>
         <div className={layoutStyles.gridItem1}>
           <h1 className={layoutStyles.siteLogo}>0xNike</h1>
-          <p>Student Developer</p>
+          <p id="status">Student Developer</p>
         </div>
         <nav className={layoutStyles.gridItem2}>
           <ul className={layoutStyles.navLinks}>
@@ -43,6 +43,14 @@ const Layout = ({ pageTitle, children }) => {
          <StaticImage 
             alt="GitHub" 
             src="../images/github-brands.svg" 
+            className={layoutStyles.icon}
+            placeholder="none"
+            />
+        </a>
+        <a href="https://github.com/0xNike">
+         <StaticImage 
+            alt="LinkedIn" 
+            src="../images/linkedin-brands.svg" 
             className={layoutStyles.icon}
             placeholder="none"
             />
